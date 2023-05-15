@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="icon" href="img/icon.ico" type="image/x-icon">
+  <title>ГИБДД России по Саратовской области</title>
+</head>
+
+<body>
+  <header class="header-small">
+    <div class="logo">
+      <!-- Ваш логотип здесь -->
+      <h1>ГИБДД России по Саратовской области</h1>
+      <img src="img/logo.png" alt="Логотип" height="50" />
+    </div>
+    <div class="contact-info">
+      <p>Номер ГИБДД: + 8-800-123-4567</p>
+      <p>Адрес: г. Саратов, 6-й Соколовогорский проезд</p>
+    </div>
+    <div class="social-icons">
+      <img src="/img/facebook.png" alt="Facebook" height="25">
+      <img src="/img/twitter.png" alt="Twitter" height="25">
+      <img src="/img/instagram.png" alt="Instagram" height="25">
+    </div>
+  </header>
+
+  <header class="header">
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html">ГЛАВНАЯ</a></li>
+        <li><a href="about.html">О ГИБДД</a></li>
+        <li><a href="#">УСЛУГИ</a></li>
+        <li><a href="#">БЕЗОПАСНОСТЬ НА ДОРОГАХ</a></li>
+        <li><a href="#">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</a></li>
+        <li><a href="#">КОНТАКТЫ</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Поиск...">
+        <button id="search-button">Найти</button>
+        <div id="search-results"></div>
+      </div>
+      <ul>
+        <li>
+          <div class="profile">
+            <ul>
+              <li>
+                <a href="#" class="modal-lk">Личный кабинет</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <div class="section-heading">
+      <h2>Добро пожаловать на наш сайт!</h2>
+      <p>Узнайте последние новости и информацию о ГИБДД Саратовской области, а также вашему вниманию представляем
+        программное средство.</p>
+    </div>
+
+    <div class="section-content">
+      <p>Мы предлагаем широкий спектр услуг и информацию, связанную с дорожным движением. Будьте в курсе изменений в
+        правилах дорожного движения, получайте актуальные новости о деятельности ГИБДД и задавайте свои вопросы.</p>
+    </div>
+  </section>
+
+  <section id="banner">
+    <div class="carousel">
+      <div class="slide active">
+        <img src="img/slide1.jpg" alt="Слайд 1">
+      </div>
+      <div class="slide">
+        <img src="img/slide2.jpg" alt="Слайд 2">
+      </div>
+      <div class="slide">
+        <img src="img/slide3.jpg" alt="Слайд 3">
+      </div>
+      <div class="slide">
+        <img src="img/slide4.jpg" alt="Слайд 4">
+      </div>
+      <div class="slide">
+        <img src="img/slide5.jpg" alt="Слайд 5">
+      </div>
+      <div class="slide">
+        <img src="img/slide6.jpg" alt="Слайд 6">
+      </div>
+      <ul class="indicators">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="section-heading">
+    <!-- Секция с последними новостями и объявлениями -->
+    <h2>Новости и объявления</h2>
+    <p>Последние новости и объявления, которые происходят среди ГИБДД окружения.</p>
+  </div>
+
+  <section class="news">
+    <div id="news">
+      <ul class="news-list">
+        <li class="news-item">
+          <h3>Открытие нового отделения ГИБДД</h3>
+          <p>Саратов, 10 мая 2023 г. - ГИБДД Саратовской области рада объявить об открытии нового отделения в городе
+            Саратове. Отделение расположено по адресу ул. Ленина, 123. Желаем всем безопасных дорог!</p>
+        </li>
+        <li class="news-item">
+          <h3>Программа "Безопасная дорога"</h3>
+          <p>Саратов, 5 мая 2023 г. - ГИБДД Саратовской области запускает программу "Безопасная дорога", направленную на
+            повышение безопасности на дорогах. Программа включает проведение обучающих мероприятий, расширение сети
+            видеонаблюдения и другие инициативы.</p>
+        </li>
+        <li class="news-item">
+          <h3>Изменение режима движения на ул. Победы</h3>
+          <p>Саратов, 1 мая 2023 г. - В связи с ремонтными работами на ул. Победы будет временно изменен режим движения.
+            Просим водителей быть внимательными и соблюдать требования дорожных знаков и сигналов светофора.</p>
+        </li>
+        <li class="news-item">
+          <h3>В Вологодской области сотрудники Госавтоинспекции вовремя помогли беременной женщине</h3>
+          <p>Наряд отдельной роты ДПС Госавтоинспекции в составе Сергея Бритвина, Евгения Сербиновича и стажера Сергея
+            Ногинова заступил на обеспечение безопасности дорожного движения на территории Вологодского района. Около
+            восьми вечера они находились на 22 километре автодороги Вологда – Тихвин Р21 «Кола»». В это время к
+            госавтоинспекторам подъехал автомобиль, из которого вышел взволнованный мужчина и попросил полицейских
+            помочь как можно скорее доехать до роддома, так как у его жены начались схватки и она вот-вот должна родить.
+          </p>
+          <p>Не раздумывая, экипаж ДПС, включив проблесковые маячки и спецсигналы, поехал в сторону областного центра.
+            Несмотря на загруженность трассы, в течение нескольких минут наряд Госавтоинспекции доехал до медучреждения,
+            после чего полицейские на руках отнесли женщину в приемное отделение и передали ее медикам. </p>
+          <p>Буквально через десять минут женщина родила мальчика. «Большое спасибо наряду ДПС за то, что они помогли
+            нам так быстро добраться до роддома», - поблагодарила полицейских молодая мама.</p>
+        </li>
+        <li class="news-item">
+          <h3>В рамках марафона «50 добрых дел ЮИД» школьники Бурятии призвали водителей соблюдать меры безопасности в
+            пожароопасный период</h3>
+          <p>В Тункинском районе Бурятии в рамках марафона «50 добрых дел ЮИД» активисты ЮИДовского движения провели
+            экологическую акцию «Остановим лесные пожары!». Вместе с сотрудниками Госавтоинспекции, противопожарной
+            службы МЧС и представителями природного национального парка «Тункинский» школьники призвали участников
+            дорожного движения соблюдать меры безопасности в пожароопасный период.</p>
+          <p>Водителям и пассажирам транспортных средств напомнили о последствиях лесных пожаров, поскольку именно на
+            автомобилях любители пикников и активного отдыха выезжают на природу. Участникам дорожного движения вручили
+            памятки о правилах поведения в лесу и при возникновении лесного пожара.</p>
+          <p>Представители МЧС в своем обращении приводили в пример последствия разгула стихии в соседних регионах.
+            «Воздержитесь от поездок на пикник, не разводите костры, не жгите сухую траву на полях и возле жилых домов,
+            не бросайте окурки и спички в ветреную погоду», - настоятельно рекомендовали участникам акции.</p>
+          <p>Водителям и пассажирам раздали специальные листовки о правилах поведения в лесу и алгоритм действий в
+            случае обнаружения очага возгорания.</p>
+        </li>
+        <li class="news-item">
+          <h3>Сотрудники Госавтоинспекции провели рейд, направленный на выявление нарушений ПДД</h3>
+          <p>Сотрудники Госавтоинспекции на одной из центральных улиц города Саратова, вблизи Городского парка культуры
+            и отдыха провели широкомасштабный рейд, направленный на выявление правонарушений в области дорожного
+            движения.</p>
+          <p>За час несения службы сотрудниками ДПС был выявлено 9 нарушений ПДД РФ, из них - нарушение правил перевозки
+            несовершеннолетних в автомобиле (назначены штрафы в размере 3000 рублей каждому), непредоставление
+            преимущества пешеходу на пешеходном переходе (назначены штрафы 1500 рублей каждому), несоблюдение требований
+            об обязательном страховании гражданской ответственности владельцев транспортных средств (назначены штрафы от
+            500 до 800 рублей каждому), нарушение остановки и стоянки автомобилей (штраф 1000 рублей), нарушения ПДД
+            велосипедистами и лицами, управляющими средствами индивидуальной мобильности (штрафы по 800 рублей).</p>
+          <p>В ходе рейда автоинспекторы проводили профилактические беседы о неукоснительном соблюдении ПДД РФ.</p>
+          <p>Участники дорожного движения, в свою очередь, пообещали стражам правопорядка соблюдать правила и быть
+            внимательными на дороге.</p>
+        </li>
+      </ul>
+      <button id="show-more-button">Показать все новости</button>
+    </div>
+  </section>
+
+
+  <div class="section-heading">
+    <h2>Наши услуги</h2>
+    <p> Покупая наши услуги, вы освобождаете себя от необходимости самостоятельно разбираться в сложных процедурах и
+      требованиях ГИБДД.</p>
+    <p>Мы возьмем на себя все организационные и юридические аспекты, чтобы вы могли сосредоточиться на других важных
+      задачах. услуги.</p>
+  </div>
+
+  <section id="services" class="section">
+    <div class="services-container">
+      <div class="service-slides">
+        <div class="service-slide">
+          <ul id="services-list" class="services-list">
+            <li class="service-item">
+              <div class="service-icon">
+                <i class="fas fa-car"></i>
+              </div>
+              <div class="service-content">
+                <h3>Регистрация автомобилей</h3>
+                <p>Оказываем услуги по регистрации и выдаче номерных знаков для автомобилей</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon">
+                <i class="fas fa-clipboard-check"></i>
+              </div>
+              <div class="service-content">
+                <h3>Проверка транспортных средств</h3>
+                <p>Предоставляем возможность проверить информацию о транспортных средствах по базе данных</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon">
+                <i class="fas fa-exchange-alt"></i>
+              </div>
+              <div class="service-content">
+                <h3>Перерегистрация водительских прав</h3>
+                <p>Помогаем вам обновить и перерегистрировать ваши водительские права</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon">
+                <i class="fas fa-car"></i>
+              </div>
+              <div class="service-content">
+                <h3>Автомобильные проверки</h3>
+                <p>Проверка технического состояния автомобилей и выдача справок</p>
+              </div>
+            </li>
+          </ul>
+          <div id="pagination" class="pagination"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <h2>Наше местоположение</h2>
+      <p>Предлагаем увидеть наш адрес местоположения</p>
+    </div>
+    <!-- Карта с местоположением -->
+    <div id="map-container">
+      <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9c01aad4276996c7362c3296bcaca91c350b83e83e1ea185e4bf6e26d79c17f2&amp;width=1200&amp;height=600&amp;lang=ru_RU&amp;scroll=false"></script>
+    </div>
+  </section>
+
+  <section id="stripe" class="stripe-section">
+
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <h2>Программное обеспечение ГИБДД</h2>
+      <p>Мощное решение для эффективного управления дорожным движением и обеспечения безопасности на дорогах.</p>
+    </div>
+    <div class="section-heading">
+      <div class="slideshow-container_2">
+        <div class="photo-gallery">
+        <div class="slide_2" id="photo-item">
+          <img src="img/demo/1.png" alt="Программный продукт 1">
+          <span class="beta-label">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span> 
+          <span class="beta-label-2">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span>
+        </div>
+        <div class="slide_2" id="photo-item">
+          <img src="img/demo/2.png" alt="Программный продукт 2">
+          <span class="beta-label">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span> 
+          <span class="beta-label-2">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span>
+        </div>
+        <div class="slide_2" id="photo-item">
+          <img src="img/demo/3.png" alt="Программный продукт 3">
+          <span class="beta-label">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span> 
+          <span class="beta-label-2">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span>
+        </div>
+        <div class="slide_2" id="photo-item">
+          <img src="img/demo/4.png" alt="Программный продукт 4">
+          <span class="beta-label">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span> 
+          <span class="beta-label-2">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span>
+        </div>
+        <div class="slide_2" id="photo-item">
+          <img src="img/demo/5.png" alt="Программный продукт 5">
+          <span class="beta-label">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span> 
+          <span class="beta-label-2">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span>
+        </div>
+        <div class="slide_2" id="photo-item">
+          <img src="img/demo/6.png" alt="Программный продукт 6">
+          <span class="beta-label">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span> 
+          <span class="beta-label-2">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span>
+        </div>
+        <div class="slide_2" id="photo-item">
+          <img src="img/demo/7.png" alt="Программный продукт 7">
+          <span class="beta-label">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span> 
+          <span class="beta-label-2">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span>
+        </div>
+        <div class="slide_2" id="photo-item">
+          <img src="img/demo/8.png" alt="Программный продукт 8">
+          <span class="beta-label">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span> 
+          <span class="beta-label-2">DEMO-VERSION DEMO-VERSION DEMO-VERSION</span>
+        </div>
+      </div>
+
+        <a class="prev" onclick="prevSlide_2()">&#10094;</a>
+        <a class="next" onclick="nextSlide_2()">&#10095;</a>
+      </div>
+    </div>
+    <div class="section-content">
+      <div class="row">
+        <div class="centered-button">
+          <!-- Кнопка для открытия модального окна -->
+          <button class="download-button">Скачать программное обеспечение</button>
+        </div>
+      </div>
+      <!-- Модальное окно -->
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="po-title">
+            <h2>программное обеспечение - ГИБДД Vision</h2>
+            <h2>О программе</h2>
+              <p>ПО для ГИБДД (Государственной инспекции безопасности дорожного движения) представляет собой
+                программное решение, разработанное с использованием технологии WPF (Windows Presentation Foundation) и
+                языка программирования C#. Оно предназначено для автоматизации и упрощения работы ГИБДД в области учета
+                информации о водителях, владельцах автомобилей и данных СТС (свидетельства о регистрации транспортного
+                средства). Данное ПО включает подключение к модели данных ADO.NET для обработки и хранения информации.
+                </p>
+                <h2>Особенности</h2>
+                  <ul>
+                    <li>Удобный интерфейс</li>
+                    <li>Мощные аналитические инструменты</li>
+                    <li>Интеграция с базой данных ГИБДД</li>
+                    <li>Поддержка мобильных устройств</li>
+                  </ul>
+                  <h2>Нажмите на ссылку ниже, чтобы начать загрузку программного обеспечения.</h2>
+                  <a href="#" class="d-button">
+                    <i class="fa-solid fa-download fa-bounce bigger-icon" style="color: #fff;"></i>
+                  </a>
+                  <h2>© 2023 ГИБДД России по Саратовской области. Все права защищены.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stripe" class="stripe-section">
+
+  </section>
+
+
+  <section class="section">
+    <div class="section-heading">
+      <h2>Свяжитесь с нами</h2>
+      <p>Если у вас есть вопросы или предложения, свяжитесь с нами:</p>
+    </div>
+    <div class="section-content">
+      <p>Телефон: 8-800-123-4567</p>
+      <p>Email: info@gibdd-saratov.ru</p>
+    </div>
+  </section>
+
+  <section id="questionnaire" class="section">
+    <div class="section-heading">
+      <h2>Анкета</h2>
+      <p>Если у вас есть вопросы - заполните анкету</p>
+    </div>
+    <form>
+      <!-- Форма анкеты для вопросов -->
+      <div>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="question">Вопрос:</label>
+        <textarea id="question" name="question" required></textarea>
+      </div>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+
+  <footer>
+    <p class="creator">&copy; 2023 ГИБДД России по Саратовской области</p>
+    <p class="creator">make by !vlasoffer!</p>
+  </footer>
+
+</body>
+
+<script src="js/banner.js"></script>
+<script src="js/modalpage.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/news.js"></script>
+
+<script src="js/uslg.js"></script>
+
+<script src="js/download.js"></script>
+
+
+
+
+</html>
